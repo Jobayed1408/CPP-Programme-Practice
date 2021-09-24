@@ -1,0 +1,24 @@
+#include<iostream>
+using namespace std;
+class find_average
+{
+int x,y,z;
+double res;
+public:
+    void input()
+    {
+        cin>>x>>y>>z;
+    }
+
+    void avg()
+    {
+        res=(x+y+z)/3.0;
+        cout<<res;
+    }
+};
+int main()
+{
+    find_average a;
+    a.input();
+    a.avg();
+}

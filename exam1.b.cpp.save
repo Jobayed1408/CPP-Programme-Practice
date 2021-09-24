@@ -1,0 +1,28 @@
+
+#include<iostream>
+using namespace std;
+
+class bgc
+{
+    public:
+    int z;
+
+    bgc(int x, int y,int b, int c,int a)
+    {
+        z = x+y;
+    }
+    ~bgc()
+    {
+        cout<<z;
+    }
+};
+
+int main()
+{
+
+    int m,n,o,p,q;
+    cin>>m>>n>>o>>p>>q;
+
+    bgc ob(m);
+
+}

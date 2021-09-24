@@ -1,0 +1,29 @@
+#include<iostream>
+using namespace std;
+
+
+class summ
+{
+    int n,sum=0,i;
+public:
+
+
+
+            cin>>n;
+        void add()
+        {
+            int sum,i;
+            for(i=0;i<=n;i++)
+            sum+=i;
+            cout << "Sum =  " << sum;
+        }
+
+    };
+int main() {
+
+
+    summ ob;
+    ob.input();
+    ob.add();
+
+}
